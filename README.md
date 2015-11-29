@@ -10,36 +10,27 @@ x Provide (at least) two accounts: Customer joe with password “1tbh?5g” and 
 with password “4uIdo0!” (feel free to add other accounts, but these must exist).
 
 x Customers can perform the following:
-o Browse through all your items.
-o Search products by ID number and browse through the search results.
-o Search products by name and browse through the search results. 
-o Add displayed items to their shopping cart.
-o Remove items from their shopping cart.
-o Add comments to any product.
-o View comments that have been added to a product.
+Browse through all your items.
+Search products by ID number and browse through the search results.
+Search products by name and browse through the search results. 
+Add displayed items to their shopping cart.
+Remove items from their shopping cart.
+Add comments to any product.
+View comments that have been added to a product.
+
 x Administrators can perform:
-o Add new products to the sale database.
-o Remove products from the sale database.
-o Increase/decrease the available amount of any product.
+Add new products to the sale database.
+Remove products from the sale database.
+Increase/decrease the available amount of any product.
+
 x When customers check out, the quantity for your items in the database is adjust
 correspondingly - make sure the quantity of a product in the database cannot drop below 0.
 x When customers cancel their order, the database should remain unchanged.
-x A logging facility:
-o Every time a customer confirms an order or cancels an order a corresponding entry
+
+Every time a customer confirms an order or cancels an order a corresponding entry
 added to the log (use either a log-file or a table in the database).
-o Every time an administrator adds or removes a product a corresponding entry is add
+Every time an administrator adds or removes a product a corresponding entry is add
 to the log.
 
 x Your application must avoid the following OWASP Top 10 vulnerabilities:
-o A1: Injection
-o A2: Broken Authentication & Session Management
-o A3: Cross-Site Scripting (XSS)
-o A4: Insecure Direct Object References
-o A7: Missing Function Level Access Control
-o A8: Cross Site Request Forgery (CSRF)
-o A10: Unvalidated Redirects and Forwards (your application must contain at least o
-user input-dependant redirect or forward)
-x You must include a document in your submission that discusses:
-o What techniques you used to ensure that your application it not vulnerable to t
-required OWASP Top 10 vulnerabilities.
-o How you tested your application to ensure your chosen defence is working correctly.
+
