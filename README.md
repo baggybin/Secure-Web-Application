@@ -11,7 +11,7 @@ with password “4uIdo0!” (feel free to add other accounts, but these must exi
 x Customers can perform the following:
 o Browse through all your items.
 o Search products by ID number and browse through the search results.
-o Search products by name and browse through the search results.
+o Search products by name and browse through the search results. 
 o Add displayed items to their shopping cart.
 o Remove items from their shopping cart.
 o Add comments to any product.
