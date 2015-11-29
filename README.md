@@ -8,6 +8,7 @@ x Access to your shop is limited – you must provide an authentication scheme. 
 role based, where your system provides two roles: customer and administrator.
 x Provide (at least) two accounts: Customer joe with password “1tbh?5g” and administrator to
 with password “4uIdo0!” (feel free to add other accounts, but these must exist).
+
 x Customers can perform the following:
 o Browse through all your items.
 o Search products by ID number and browse through the search results.
@@ -28,6 +29,7 @@ o Every time a customer confirms an order or cancels an order a corresponding en
 added to the log (use either a log-file or a table in the database).
 o Every time an administrator adds or removes a product a corresponding entry is add
 to the log.
+
 x Your application must avoid the following OWASP Top 10 vulnerabilities:
 o A1: Injection
 o A2: Broken Authentication & Session Management
